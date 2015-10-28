@@ -32,7 +32,7 @@ Vagrant project to spin up a cluster of 3 nodes, Ubuntu 12.04 LTS 64-bit virtual
 This project was put together with great pointers from all around the internet.
 
 ## 6. Copyright
-Copyright 2015 Jaeyoung Chun
+Copyright 2015 Jaeyoung Chun (Danny)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
