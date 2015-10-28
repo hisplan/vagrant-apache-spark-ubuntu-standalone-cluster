@@ -1,4 +1,4 @@
-# vagrant-apache-spark
+# vagrant-apache-spark-ubuntu-standalone-cluster
 
 ## 1. Introduction
 Vagrant project to spin up a cluster of 3 nodes, Ubuntu 12.04 LTS 64-bit virtual machines with Apache Spark 1.5.1 (pre-built for Apache Hadoop 2.4).
