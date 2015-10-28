@@ -1,0 +1,4 @@
+.vagrant
+src
+job
+resources/*.tgz

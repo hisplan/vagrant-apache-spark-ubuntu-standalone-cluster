@@ -7,7 +7,7 @@ Vagrant project to spin up a cluster of 3 nodes, Ubuntu 12.04 LTS 64-bit virtual
 - node3 : Spark Slave (192.168.200.203)
 
 ## 2. Prerequisites
-1. At least 1GB memory in addition to the memory for your host machine.
+1. At least 1GB memory for each VM node. The default script provided is for 3 nodes, so you need 3GB for the nodes, in addition to the memory for your host machine.
 2. Vagrant 1.7 or higher.
 3. VirtualBox 4.3.2 or higher.
 
@@ -19,7 +19,7 @@ Vagrant project to spin up a cluster of 3 nodes, Ubuntu 12.04 LTS 64-bit virtual
 5. Run `vagrant up` to create the VM.
 6. Run `ssh vagrant@192.168.200.201` to get into your Spark master node.
 7. Run `/home/vagrant/spark-1.5.1-bin-hadoop2.4/sbin/start-all.sh` to start Spark master and all slave nodes.
-8. Visit `http://192.168.200.201:8080/` to see Spark's Web UI.
+8. View the Spark web UI at `http://192.168.200.201:8080/`.
 9. Run `vagrant destroy` when you want to destroy and get rid of the VM.
 
 ## 4. Note
